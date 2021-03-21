@@ -1,0 +1,4 @@
+masterthyme/coolmod/coolmod/coolmod.java
+ masterthyme.coolmod.coolmod.coolmod
+masterthyme/coolmod/coolmod/mixin/ExampleMixin.java
+ masterthyme.coolmod.coolmod.mixin.ExampleMixin

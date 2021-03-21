@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "coolmod",
+  "version": "0.1.0",
+
+  "name": "CoolMod",
+  "description": "The CoolMod for the Adventure",
+  "authors": [
+    "MasterThyme"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC BY-NC-SA 3.0",
+  "icon": "assets/coolmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "masterthyme.coolmod.coolmod"
+    ]
+  },
+  "mixins": [
+    "coolmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
